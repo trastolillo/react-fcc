@@ -24,7 +24,7 @@ const Home = () => {
     setSearchTerm,
     setIsLoadingMore
   } = useHomeFetch();
-  console.log(state);
+  console.log('home: ' + state);
 
   if (error) return <div>Algo ha ido mal...</div>;
 
